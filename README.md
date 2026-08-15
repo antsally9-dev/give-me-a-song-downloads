@@ -4,7 +4,7 @@
 
 Give Me a Song 是一个本地优先的开始仪式。它不是要求你先完成计划、挑好歌或设定倒计时，而是先用一首歌打断停滞，让注意力有一个落点，再回到眼前的事情。
 
-[前往 Releases 下载最新版本](../../releases/latest)
+[前往 Releases 下载 0.2.0 Preview](../../releases/tag/v0.2.0)
 
 ## 页面预览
 
@@ -45,7 +45,7 @@ Give Me a Song 是一个本地优先的开始仪式。它不是要求你先完�
 
 ### Android 与兼容的华为设备
 
-1. 在 [Releases](../../releases/latest) 下载 `Give-Me-a-Song-0.2.0+11-android.apk`。
+1. 在 [Releases](../../releases/tag/v0.2.0) 下载 `Give-Me-a-Song-0.2.0+11-android.apk`。
 2. 用浏览器或文件管理器打开 APK。
 3. 按系统提示允许该来源安装应用。
 4. 安装后首次播放时，根据需要开启通知，以显示后台和锁屏媒体控制。
@@ -87,4 +87,3 @@ App 不要求账号，不接入广告、跨 App 跟踪或产品分析 SDK。心�
 - 不提供 iOS、iPadOS、macOS 或 HarmonyOS NEXT 原生版本。
 
 如果遇到问题，请附上设备型号、系统版本、App 版本和复现步骤，发送至 `antsally9@gmail.com`。
-
