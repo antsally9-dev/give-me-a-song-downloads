@@ -1,4 +1,4 @@
-# Give Me a Song 0.2.0+11 Preview
+# Give Me a Song 0.2.0 Preview（Android +12 热修）
 
 这是面向初期用户的 Android、华为兼容设备和 Windows 预览版本。
 
@@ -12,9 +12,16 @@
 
 ## 下载哪个文件
 
-- Android：`Give-Me-a-Song-0.2.0+11-android.apk`
+- Android（64 位 ARM）：`Give-Me-a-Song-0.2.0+12-android-arm64.apk`
 - Windows x64：`Give-Me-a-Song-0.2.0+11-windows-x64.zip`
 - 校验：`SHA256SUMS.txt`
+
+## Android +12 热修
+
+- 修复部分 Android 15 / 厂商系统设备安装后无法启动的问题。
+- 根因是 Release 混淆压缩移除了 WorkManager / Room 启动时需要的构造方法；热修版已显式保留该运行时入口。
+- 已在 iQOO 15 真机完成全新安装、冷启动、播放页和主要页面流程验证。
+- 使用与此前版本相同的正式签名，可覆盖安装升级。
 
 Windows ZIP 必须完整解压后运行，不能只复制 EXE。当前 Windows 版本尚未购买代码签名证书，可能出现 SmartScreen 提示，请先核对 SHA-256。
 

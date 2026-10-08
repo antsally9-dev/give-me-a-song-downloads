@@ -15,7 +15,7 @@ Give Me a Song 是一个本地优先的开始仪式。它不是要求你先完�
 </p>
 
 <p align="center">
-  <img src="screenshots/sleep-guide.png" alt="睡前模式新手指引" width="220">
+  <img src="screenshots/sleep-guide.png" alt="完整使用帮助：开始、睡前与声音设置" width="220">
   <img src="screenshots/settings.png" alt="设置与本机数据" width="220">
 </p>
 
@@ -45,12 +45,14 @@ Give Me a Song 是一个本地优先的开始仪式。它不是要求你先完�
 
 ### Android 与兼容的华为设备
 
-1. 在 [Releases](../../releases/tag/v0.2.0) 下载 `Give-Me-a-Song-0.2.0+11-android.apk`。
+1. 在 [Releases](../../releases/tag/v0.2.0) 下载 `Give-Me-a-Song-0.2.0+12-android-arm64.apk`。
 2. 用浏览器或文件管理器打开 APK。
 3. 按系统提示允许该来源安装应用。
 4. 安装后首次播放时，根据需要开启通知，以显示后台和锁屏媒体控制。
 
 APK 使用项目私有正式证书签名。后续正式版本会继续使用同一证书，以支持覆盖升级。
+
+当前 APK 面向 64 位 ARM Android 手机。`0.2.0+12` 是 Android 热修构建，修复了部分 Android 15 / 厂商系统设备安装后无法启动的问题；已在 iQOO 15 真机完成冷启动、播放和页面流程验证。
 
 ### Windows
 
@@ -77,7 +79,7 @@ App 不要求账号，不接入广告、跨 App 跟踪或产品分析 SDK。心�
 
 ## 版本状态
 
-当前为 `0.2.0+11 Preview`，面向初期测试用户。已通过 361 项 Flutter 测试、静态分析、正式内容校验，以及 Android/Windows 发布元数据校验。
+当前为 Preview：Android `0.2.0+12`，Windows `0.2.0+11`。Android 热修版已通过 362 项 Flutter 测试、静态分析、正式内容校验、发布元数据校验和 iQOO 15 真机冷启动验证。
 
 已知限制：
 
